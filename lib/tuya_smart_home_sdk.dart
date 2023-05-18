@@ -1,7 +1,8 @@
-library tuya_smart_home_sdk;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'tuya_smart_home_sdk_platform_interface.dart';
+
+class TuyaSmartHomeSdk {
+  Future<String?> getPlatformVersion() {
+    return TuyaSmartHomeSdkPlatform.instance.getPlatformVersion();
+  }
 }
