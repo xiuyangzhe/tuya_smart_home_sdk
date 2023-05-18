@@ -1,7 +1,7 @@
 name: tuya_smart_home_sdk
 description: 涂鸦智能生活Flutter 第三方插件
 version: 0.0.1
-homepage:
+homepage: https://github.com/xiuyangzhe/tuya_smart_home_sdk
 
 environment:
   sdk: '>=2.19.0-415.0.dev <3.0.0'
